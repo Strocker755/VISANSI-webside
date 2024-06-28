@@ -18,6 +18,9 @@ export default function Component() {
           <Link href="#about" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
             Nosotros
           </Link>
+          <Link href="#team" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+            Equipo
+          </Link>
           <Link href="#contact" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
             Contacto
           </Link>
@@ -37,7 +40,7 @@ export default function Component() {
                   className="mx-auto w-full max-w-lg object-cover"
                 />
                 <p className="text-gray-300 md:text-xl dark:text-gray-400 mt-7 mb-10 mx-0 text-center">
-                  Expertos en construcción de confianza que entregan proyectos de calidad.
+                Especialistas en crear, modernizar, administrar y gestionar los tramites y obras de Infraestructura Vial, Residencial y Derecho de Vía, en sus distintas etapas de ejecución
                 </p>
               </div>
               <img
@@ -62,39 +65,51 @@ export default function Component() {
             </div>
             <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Construcción residencial</h3>
+                <h3 className="text-lg font-bold">Construcción de Infraestructura</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Nos especializamos en la construcción de propiedades residenciales de alta calidad, desde viviendas unifamiliares hasta desarrollos de unidades múltiples.
+                  Carreteras, puentes, viviendas, urbanización, plantas industriales, edificios comerciales e hidráulicos.
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Construcción Comercial</h3>
+                <h3 className="text-lg font-bold">Supervisión de Construcción</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Nuestra experiencia se extiende a proyectos comerciales, incluidos edificios de oficinas, espacios comerciales e instalaciones industriales.
+                Administración y supervisión de Construcción de naves y plantas industriales.
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Proyectos de infraestructura</h3>
+                <h3 className="text-lg font-bold">Supervisión de Vivienda</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Llevamos a cabo proyectos de infraestructura a gran escala, como carreteras, puentes y servicios públicos, para apoyar el desarrollo comunitario.
+                  Administración y supervición de construcción de vivienda.
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Renovación y Remodelación</h3>
+                <h3 className="text-lg font-bold">Servicios de Transporte</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Nuestro equipo puede transformar estructuras existentes, ya sean residenciales o comerciales, para satisfacer sus necesidades cambiantes.
+                  Autotransporte y servicios relacionados con el transporte
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Gestión de proyectos</h3>
+                <h3 className="text-lg font-bold">Asistencia Legal</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Brindamos servicios integrales de gestión de proyectos, garantizando que su proyecto de construcción se complete a tiempo y dentro del presupuesto.
+                  Servicios de apoyo para efectuar trámites legales
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Construcción sostenible</h3>
+                <h3 className="text-lg font-bold">Aprovechamiento Forestal</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  ViSansi está comprometida con prácticas de construcción sostenibles, minimizando el impacto ambiental y promoviendo la eficiencia energética.
+                  Relacionados con el aprovechamiento forestal.
+                </p>
+              </div>
+              <div className="grid gap-1">
+                <h3 className="text-lg font-bold">Acabados de Edificaciones</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  Trabajos de acabados en edificaciones.
+                </p>
+              </div>
+              <div className="grid gap-1">
+                <h3 className="text-lg font-bold">Preparación de Terrenos</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  Preparación de terrenos para la construcción.
                 </p>
               </div>
             </div>
@@ -102,7 +117,7 @@ export default function Component() {
         </section>
 
         {/* Sección acerca de nosotros */}
-        <section id="about" className="w-full py-12 md:py-24 lg:py-32">
+        <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
           <div className="container mx-auto px-4 md:px-6 space-y-12">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -122,7 +137,7 @@ export default function Component() {
                 <div className="grid gap-1">
                   <h3 className="text-xl font-bold">Nuestra misión</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Ser el socio confiable de nuestros clientes, brindando servicios de construcción excepcionales que mejoren las comunidades a las que servimos.
+                  En VISANSI S.A. DE C.V. Somos una empresa que partiendo de la innovación ofrece servicios con altos parámetros de calidad y eficacia. Que, con profesionistas especializados, responsables y comprometidos con el trabajo, busca llegar a cada uno de los clientes y sociedad en general para así satisfacer sus necesidades, con apego a la excelencia en el desempeño, crecimiento sostenible y responsabilidad social.
                   </p>
                 </div>
                 <div className="grid gap-1">
@@ -141,8 +156,65 @@ export default function Component() {
           </div>
         </section>
 
+        {/* Nuestro equipo de trabajo */}
+        <section id="team" className="w-full py-12 md:py-24 lg:py-32">
+          <div className="container mx-auto md:px-6 space-y-12">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Nuestro Equipo de Trabajo</h2>
+            </div>
+            <div className="mx-auto grid max-w-4xl gap-8 sm:grid-cols-2 lg:grid-cols-3">
+              {/* Miembro del equipo 1 */}
+              <div className="flex flex-col items-center">
+                <img
+                  src="/equip1.jpg"
+                  alt="Nombre 1"
+                  className="w-32 h-32 rounded-full object-cover"
+                />
+                <p className="mt-4 text-lg font-medium"> Lic. Antonio Villagómez Sánchez</p>
+              </div>
+              {/* Miembro del equipo 2 */}
+              <div className="flex flex-col items-center">
+                <img
+                  src="/equip1.jpg"
+                  alt="Nombre 2"
+                  className="w-32 h-32 rounded-full object-cover"
+                />
+                <p className="mt-4 text-lg font-medium">Lic. José Francisco Villagómez Sánchez</p>
+              </div>
+              {/* Miembro del equipo 3 */}
+              <div className="flex flex-col items-center">
+                <img
+                  src="/equip1.jpg"
+                  alt="Nombre 3"
+                  className="w-32 h-32 rounded-full object-cover"
+                />
+                <p className="mt-4 text-lg font-medium">Lic. Luis Fernando Villagómez Sánchez</p>
+              </div>
+              {/* Miembro del equipo 4 */}
+              <div className="flex flex-col items-center">
+                <img
+                  src="/equip1.jpg"
+                  alt="Nombre 4"
+                  className="w-32 h-32 rounded-full object-cover"
+                />
+                <p className="mt-4 text-lg font-medium">Lic. Alejandro Villagómez Sánchez</p>
+              </div>
+              {/* Miembro del equipo 5 */}
+              <div className="flex flex-col items-center">
+                <img
+                  src="/equip1.jpg"
+                  alt="Nombre 5"
+                  className="w-32 h-32 rounded-full object-cover"
+                />
+                <p className="mt-4 text-lg font-medium">Lic. Cesar Adrián Villagómez Sánchez</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
         {/* Sección de contacto */}
-        <section id="contact" className="w-full py-12 md:py-24 lg:py-32">
+        <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
           <div className="container mx-auto px-4 md:px-6 space-y-12">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -162,22 +234,52 @@ export default function Component() {
                 <div className="grid gap-1">
                   <h3 className="text-xl font-bold">Oficina Central</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Calle Falsa 123, Colonia Inventada, Ciudad, País.
+                  Avenida Paseo de las Haciendas, Manzana 1 (uno), Lote 3 (tres), Casa “A”, fraccionamiento “Los Sauces” sección IV, Código Postal 50210, Toluca, estado de México. 
                   </p>
                 </div>
                 <div className="grid gap-1">
                   <h3 className="text-xl font-bold">Teléfono</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
-                    +52 123 456 7890
-                  </p>
+                  <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
+              <div className="grid gap-1">
+                <h3 className="text-sm font-semibold">Lic. Antonio Villagómez</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  +52 722 604 7010
+                </p>
+              </div>
+              <div className="grid gap-1">
+                <h3 className="text-sm font-semibold">Lic. Francisco Villagómez</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  +52 722 501 2281
+                </p>
+              </div>
+              <div className="grid gap-1">
+                <h3 className="text-sm font-semibold">Lic. Fernando Villagómez</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  +52 722 123 6661
+                </p>
+              </div>
+              <div className="grid gap-1">
+                <h3 className="text-sm font-semibold">Lic. Alejandro Villagómez</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  +52 722 158 5772
+                </p>
+              </div>
+              <div className="grid gap-1">
+                <h3 className="text-sm font-semibold">Lic. Cesar Villagómez</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  +52 729 140 7205
+                </p>
+              </div>
+              
+            </div>
                 </div>
                 <div className="grid gap-1">
                   <h3 className="text-xl font-bold">Correo Electrónico</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    info@visansi.com
+                    visansimx@gmail.com
                   </p>
                 </div>
-                <div className="grid gap-1">
+                {/*<div className="grid gap-1">
                   <h3 className="text-xl font-bold">Redes Sociales</h3>
                   <div className="flex gap-4">
                     <Link
@@ -213,7 +315,7 @@ export default function Component() {
                       <span className="sr-only">LinkedIn</span>
                     </Link>
                   </div>
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>
